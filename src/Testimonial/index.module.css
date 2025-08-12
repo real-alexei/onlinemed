@@ -1,0 +1,66 @@
+.testimonialCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FEF3C7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #92400E;
+  font-size: 14px;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.location {
+  font-size: 14px;
+  color: #6B7280;
+  margin-top: 2px;
+}
+
+.timeAgo {
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.star {
+  color: #10B981;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #374151;
+}

@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   padding-left: 16px;
-  transition: outline 1s ease-in-out, box-shadow 1s ease-in-out;
+  transition: outline 1s ease-in-out, box-shadow 1s ease-in-out, background-color 1s ease-in-out;
 }
 .wrapper.verified {
   background: #E8F0FD;
