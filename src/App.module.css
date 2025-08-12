@@ -1,0 +1,28 @@
+:global(#root) {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+
+.container {
+  /* transition: outline 1s ease-in-out; */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 600px;
+}
+.container.expanded {
+  outline: 1px solid #DFE1E6;
+}
+
+
+.codeInput {
+  max-height: 0px;
+  opacity: 0;
+  transition: max-height 0.5s ease-in-out 1s, opacity 0.5s ease-in-out;
+}
+.codeInput.expanded {
+  opacity: 1;
+  max-height: 500px;
+}
