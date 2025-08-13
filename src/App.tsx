@@ -13,7 +13,7 @@ function App() {
           <div className={styles.title}>What is your email?</div>
           <div className={styles.description}>This is where we send the note</div>
           
-          <EmailVerificationForm />
+          <EmailVerificationForm onSubmit={() => {}} />
         </div>
       </main>
     </div>
