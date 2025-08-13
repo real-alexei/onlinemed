@@ -20,12 +20,7 @@
   color: #1a1a1a;
 }
 
-.input:focus {
-  border: 2px solid #4285f4;
-  border-radius: 12px;
-}
-
-.input.focused {
+.input:focus, .input.focused {
   border: 2px solid #4285f4;
 }
 
