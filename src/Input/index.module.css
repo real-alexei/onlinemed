@@ -28,7 +28,6 @@
   text-align: left;
   transition: width 1s ease-in-out, opacity 1s ease-in-out 1s;
   transition-delay: 0.5s;
-  margin-bottom: 2px;
 }
 
 .wrapper .reset {
