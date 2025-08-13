@@ -99,3 +99,26 @@
     background-position: -100% 0%;
   }
 }
+
+/* Mobile styles - 768px and below */
+@media (max-width: 768px) {
+  .wrapper {
+    min-width: 100%;
+    padding-left: 12px;
+  }
+
+  .wrapper.verified .label {
+    width: 60px;
+    font-size: 14px;
+  }
+
+  .wrapper .reset {
+    margin-right: 12px;
+    font-size: 14px;
+  }
+
+  .input {
+    padding: 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
