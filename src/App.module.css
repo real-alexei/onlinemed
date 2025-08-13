@@ -16,9 +16,11 @@
   align-items: stretch;
   height: 100%;
 }
+
 .sidebar {
   width: 354px;
 }
+
 .contentWrapper {
   background: white;
   flex: 1;
@@ -33,38 +35,20 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  width: 600px;
 }
 
-.content .step {
+.step {
   font-size: 20px;
   font-weight: 700;
 }
-.content .title {
+
+.title {
   font-size: 32px;
   font-weight: 700;
 }
-.content .description {
+
+.description {
   font-weight: 400;
   color: #353849;
-}
-
-
-.container {
-  border-radius: 8px;
-  width: 600px;
-}
-.container.expanded {
-  outline: 1px solid #DFE1E6;
-  overflow: hidden;
-}
-
-
-.codeInput {
-  max-height: 0px;
-  opacity: 0;
-  transition: max-height 0.5s ease-in-out 1s, opacity 0.5s ease-in-out;
-}
-.codeInput.expanded {
-  opacity: 1;
-  max-height: 500px;
 }

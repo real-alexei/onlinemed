@@ -1,0 +1,23 @@
+.container {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.container.expanded {
+  outline: 1px solid #DFE1E6;
+  overflow: hidden;
+}
+
+.codeInput {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.codeInput.expanded {
+  max-height: 300px;
+}
+
+.codeInputContent {
+  padding: 16px;
+}

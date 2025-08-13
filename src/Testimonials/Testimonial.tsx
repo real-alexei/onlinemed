@@ -1,22 +1,12 @@
-import styles from './index.module.css'
+import { getInitials } from '../util'
+import styles from './Testimonial.module.css'
 
-interface TestimonialProps {
-  testimonial: {
-    id: number
-    name: string
-    location: string
-    rating: number
-    text: string
-    timeAgo: string
-  }
-}
-
-function Testimonial({ testimonial }: TestimonialProps) {
+export default function Testimonial({ testimonial }) {
   return (
     <div className={styles.testimonialCard}>
       <div className={styles.header}>
         <div className={styles.avatar}>
-          <span>{testimonial.name.split(' ')[0][0]}{testimonial.name.split(' ')[1]?.[0] || ''}</span>
+          <span>{getInitials(testimonial.name)}</span>
         </div>
         <div className={styles.info}>
           <div><strong>{testimonial.name}</strong></div>
@@ -35,5 +25,3 @@ function Testimonial({ testimonial }: TestimonialProps) {
     </div>
   )
 }
-
-export default Testimonial
