@@ -17,41 +17,41 @@
 .avatar {
   width: 40px;
   height: 40px;
+  min-width: 40px;
   border-radius: 50%;
-  background: #FEF3C7;
+  background: #FAB02029;
+  color: #FAB020;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  color: #92400E;
-  font-size: 14px;
+  font-weight: 700;
 }
 
 .info {
   flex: 1;
+  line-height: 1.25;
 }
 
 .name {
-  font-size: 16px;
-  font-weight: 600;
-  color: #1a1a1a;
+  font-weight: 700;
 }
 
 .location {
-  font-size: 14px;
+  display: block;
+  /* font-size: 14px; */
   color: #6B7280;
   margin-top: 2px;
 }
 
-.timeAgo {
-  font-size: 14px;
-  color: #9CA3AF;
+.ratingLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
 }
-
 .rating {
   display: flex;
   gap: 2px;
-  margin-bottom: 12px;
 }
 
 .star {

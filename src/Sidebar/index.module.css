@@ -61,16 +61,15 @@
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background: #D1D5DB;
+  background: #2563EB4D;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .dot.active {
-  background: #4F46E5;
-  width: 24px;
+  background: #2563EB;
   border-radius: 4px;
 }

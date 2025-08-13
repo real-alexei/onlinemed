@@ -18,6 +18,10 @@ em {
   color: #2563EB;
 }
 
+small {
+  font-size: 12px;
+  color: #4B5563;
+}
 a {
   font-weight: 500;
   color: #4F46E5;
